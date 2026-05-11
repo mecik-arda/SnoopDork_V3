@@ -4,7 +4,7 @@ Bu dosya hem Türkçe hem de İngilizce dokümantasyon içermektedir. / This fil
 
 ---
 
-## Türkçe Dokümantasyon
+## [TR]
 
 SnoopDork_V3, siber güvenlik uzmanları, penetrasyon test uzmanları ve OSINT araştırmacıları için geliştirilmiş, dinamik ve hedef odaklı bir sorgu üreticisidir. İstemci tarafında çalışan tek bir HTML dosyası mimarisine sahip olan bu araç, herhangi bir sunucu veya harici bağımlılık gerektirmeden hedef alan adı üzerindeki bilgi toplama süreçlerini hızlandırmayı amaçlar.
 
@@ -38,7 +38,7 @@ Bu araç, yalnızca eğitim, akademik araştırma ve yasal sınırlar çerçeves
 
 ---
 
-## English Documentation
+## [EN]
 
 SnoopDork_V3 is a dynamic and target-oriented query generator developed for cybersecurity professionals, penetration testers, and OSINT researchers. Featuring a client-side, single HTML file architecture, this tool aims to accelerate the reconnaissance process on a target domain without requiring any server or external dependencies.
 
