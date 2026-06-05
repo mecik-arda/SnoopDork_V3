@@ -636,7 +636,7 @@ function executeGeneration() {
         
         const titleElement = document.createElement("h2");
         titleElement.className = "category-title";
-        titleElement.innerHTML = categoryDef.title;
+        titleElement.textContent = categoryDef.title;
         
         const badgeElement = document.createElement("span");
         badgeElement.className = "badge";
@@ -736,6 +736,7 @@ function performCopyOperation(textToCopy, buttonReference, originalButtonText) {
             document.execCommand("copy");
             triggerCheckmark(buttonReference, originalButtonText);
         } catch (error) {
+            console.warn("Clipboard copy failed:", error);
         }
         document.body.removeChild(fallbackTextArea);
     }
